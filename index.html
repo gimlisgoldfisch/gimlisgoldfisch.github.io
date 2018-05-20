@@ -1,6 +1,18 @@
 <center>
-<h1>
-<font face="Chalkduster" color="magenta" > Pauls unschlagbare Website </font>
-</h1>
-<img src="1261112.jpg">
+    <head>
+        <style>
+         @-webkit-keyframes buzz {
+             50% {transform: translateX(3px) rotate(2deg);}
+             100% {transform: translateX(-3px) rotate(-2deg);}
+         }
+         .buzz:hover {
+             animation-name: buzz;
+             animation-duration: 0.10s;
+             animation-timing-function: linear;
+             animation-iteration-count: infinite;
+         }
+        </style>
+    </head>
+    <h1><font face="Chalkduster" color="magenta"> Pauls unschlagbare Website </font></h1>
+    <img src="1261112.jpg" class="buzz">
 </center>
